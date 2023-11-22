@@ -1,4 +1,6 @@
 # 퇴치메소드(rankingTest.py)
+전체적인 시스템 구조
+https://lucid.app/users/registerOrLogin/free?showLogin=false&invitationId=inv_8b551305-d3a8-4fd4-bf30-5bd6d67ad620&productOpt=chart&invitationType=documentAcceptance&returnUrlOverride=%2Flucidchart%2F3aa756b9-d3dd-4827-9936-aa33cff07374%2Fedit%3Fviewport_loc%3D-3774%252C-3777%252C4501%252C2536%252C0_0%26invitationId%3Dinv_8b551305-d3a8-4fd4-bf30-5bd6d67ad620
 
 
 # 1. PIR센서에게 물체가 감지되는지 확인
