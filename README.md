@@ -33,17 +33,18 @@ keras 모델을 통한 딥러닝
 ### Agent 클래스
 Agent 클래스는 DQN을 캡슐화하여 신경망, 메모리 및 행동을 처리합니다. 주요 메서드는 다음과 같습니다.
 
-_build_model(self): 신경망 모델을 구축.
-save_model(self): 모델 가중치를 저장.
-act(self, state): 현재 상태를 기반으로 행동을 선택.
-remember(self, state, action, reward, next_state, done): 환경의 Action에 따른 학습을 메모리에 저장.
-replay(self, sample_batch_size): 메모리를 통해 학습.
+- _build_model(self): 신경망 모델을 구축.
+- save_model(self): 모델 가중치를 저장.
+- act(self, state): 현재 상태를 기반으로 행동을 선택.
+- remember(self, state, action, reward, next_state, done): 환경의 Action에 따른 학습을 메모리에 저장.
+- replay(self, sample_batch_size): 메모리를 통해 학습.
+
 
 ### Repeller 클래스
 Repeller 클래스는 환경과 에이전트와의 상호작용을 관리합니다. 주요 메서드는 다음과 같습니다.
 
-getResult(self, action, returnTimeAction): 수행한 행동과 경과 시간을 기반으로 보상을 계산.
-run(self): 에이전트를 실행하는 메인 루프를 처리하며, 모션 감지, 소리 재생 및 에이전트 학습을 담당.
+- getResult(self, action, returnTimeAction): 수행한 행동과 경과 시간을 기반으로 보상을 계산.
+- run(self): 에이전트를 실행하는 메인 루프를 처리하며, 모션 감지, 소리 재생 및 에이전트 학습을 담당.
 
 
 ## 3. 참고 사항
