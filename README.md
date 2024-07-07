@@ -48,9 +48,9 @@ Repeller 클래스는 환경과 에이전트와의 상호작용을 관리합니�
 
 
 ## 3. 참고 사항
-시스템은 JSON 객체를 통해 stdin에서 모션 감지 입력과 응답을 읽어야 합니다.
-모델 가중치는 /home/pi/Projects/WARS/wars_weight.h5에 저장되고 로드됩니다.
-에이전트는 초기에는 높은 Exploration으로 시작하며, 학습하면서 점차 감소합니다.
+- 시스템은 JSON 객체를 통해 stdin에서 모션 감지 입력과 응답을 읽어야 합니다.
+- 모델 가중치는 /home/pi/Projects/WARS/wars_weight.h5에 저장되고 로드됩니다.
+- 에이전트는 초기에는 높은 Exploration으로 시작하며, 학습하면서 점차 감소합니다.
 
 
 
